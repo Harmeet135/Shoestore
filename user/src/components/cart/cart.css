@@ -1,0 +1,115 @@
+#cart {
+  position: fixed;
+  top: 2rem;
+  right: 3rem;
+  font-family: "Favorit";
+  font-size: -0.2rem;
+  z-index: 100;
+  background: transparent;
+  cursor: pointer;
+}
+
+.side-menu {
+  display: block;
+  z-index: 0;
+  background: rgb(247, 199, 199);
+  /* height: 100rem; */
+  width: 35rem;
+  display: flex;
+  position: fixed;
+  top: 0;
+  right: -36rem;
+  transition: 850ms;
+  /* flex-direction: column; */
+  height: 44rem;
+  max-height: 44rem;
+  overflow-y: auto;
+}
+
+.side-menu.active {
+  display: block;
+  /* width: 100%; */
+  /* opacity: 0.5; */
+  position: fixed;
+  border-left: 2px solid black;
+  background: bisque;
+  transform: 350ms;
+  right: 0px;
+  z-index: 9;
+}
+
+/* #actual-side {
+  width: 25rem;
+ 
+} */
+
+#carttt {
+  margin-left: 6rem;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  font-size: 3rem;
+  font-family: sans-serif;
+  font-weight: 500;
+  background: transparent;
+}
+
+#cart-img {
+  height: 8rem;
+  margin: auto;
+}
+
+#cart-info {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr;
+}
+
+.product-sizee {
+  font-size: 1.2rem;
+  font-family: monospace;
+}
+
+.product-pricee {
+  margin: 0 auto;
+  font-weight: 200;
+  font-size: 1.5rem;
+  font-family: cursive;
+}
+.product-namee {
+  font-family: system-ui;
+  font-size: 3rem;
+  line-height: 5.5rem;
+}
+
+.cart-info {
+  height: 11rem;
+}
+
+.amount {
+  font-size: 1.5rem;
+  color: #fcf9ee;
+  background: black;
+  height: 4rem;
+  display: flex;
+  /* align-content: space-between; */
+  padding: 1rem auto;
+  justify-content: center;
+  /* width: 4rem; */
+  padding: 1rem;
+}
+
+#span {
+  background: transparent;
+}
+
+#cart-button {
+  font-size: initial;
+  margin: 4rem 1rem 4rem -1rem;
+  border: 1px solid black;
+}
+
+#cart-button:hover {
+  background: black;
+  color: white;
+}

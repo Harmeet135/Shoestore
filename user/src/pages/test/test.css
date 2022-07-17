@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  max-width: 25rem;
+  /* height: 250px; */
+  background-color: #151515;
+  border: 5px solid;
+  border-image: linear-gradient(#ff512f, #dd2476, #1c64ff) 1;
+  animation: rotate 2.5s ease-in infinite;
+}
+
+@keyframes rotate {
+  50% {
+    border-image: linear-gradient(360deg, #ff512f, #dd2476, #1c64ff) 1;
+  }
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+
+  height: 100%;
+  align-items: center;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.box .swiper-slide {
+  flex-shrink: 0;
+  width: 100%;
+  height: 35rem;
+  position: relative;
+  transition-property: transform;
+  margin-top: 5rem;
+}

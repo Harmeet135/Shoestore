@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow-x: auto; */
+  background-color: #fcf9ee;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@font-face {
+  font-family: "Cyberthrone";
+  src: url("https://uploads-ssl.webflow.com/5c9c9c646cf0969b319f264f/5d0751a28518922f090030ce_Cyberthrone.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: "Tt trailers";
+  src: url("https://uploads-ssl.webflow.com/5c9c9c646cf0969b319f264f/5c9ca1f3d88d00e048f145fd_TT%20Trailers%20Medium.otf")
+    format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: "Favorit";
+  src: url("https://uploads-ssl.webflow.com/5c9c9c646cf0969b319f264f/5d0751a31b310b5008c32386_Favorit_Regular.otf")
+    format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+
+:root {
+  --var--font: sans-serif;
+}
+
+.left {
+  margin-top: 8vw;
+  margin-right: 11vw;
+  margin-left: 23vw;
+}
+
+h2 {
+  font-weight: 500;
+  background: transparent;
+}
+
+h3 {
+  background: transparent;
+  font-weight: 100;
+  font-size: 1rem;
+}
+
+@media only screen and (max-width: 806px) {
+  .left {
+    margin-top: 19vw;
+  }
+}

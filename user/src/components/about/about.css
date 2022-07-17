@@ -1,0 +1,28 @@
+.a-aside {
+  display: inline-block;
+  margin-top: 1vw;
+  font-size: 2vw;
+  line-height: 1.5vw;
+  text-decoration: underline;
+  font-weight: 400;
+  font-family: sans-serif;
+  text-transform: capitalize;
+}
+
+.a-heading {
+  display: inline-block;
+  line-height: 4.57vw;
+  font-weight: 400;
+  text-transform: none;
+  font-family: var(--var--font);
+
+  font-size: 4vw;
+}
+
+#about-section h1:nth-child(2) {
+  float: right;
+}
+
+#about-section a {
+  color: black;
+}
