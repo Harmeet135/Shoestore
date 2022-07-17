@@ -1,0 +1,52 @@
+{
+  "shoes": [
+    {
+      "id": 1,
+      "gender": "UNISEX",
+      "size": "SS/22",
+      "name": "DURAN",
+      "price": 230,
+      "photo": "https://global-uploads.webflow.com/5d07507a85189203b7002a95/60829bf08faece6c179c8896_Profilo.jpg"
+    },
+    {
+      "id": 2,
+      "gender": "UNISEX",
+      "size": "SS/22",
+      "name": "THE EYE",
+      "price": 250,
+      "photo": "https://global-uploads.webflow.com/5d07507a85189203b7002a95/5ecf8747b314ba36a789e3c4_ct-army-side-p-800.jpeg"
+    },
+    {
+      "id": 3,
+      "gender": "UNISEX",
+      "size": "SS/22",
+      "name": "Cactus",
+      "price": 210,
+      "photo": "https://global-uploads.webflow.com/5d07507a85189203b7002a95/5ed0d5b0a20c8f34cdca447c_te-sand-side-p-800.jpeg"
+    },
+    {
+      "id": 4,
+      "gender": "UNISEX",
+      "size": "SS/22",
+      "name": "THE CODE",
+      "price": 300,
+      "photo": "https://global-uploads.webflow.com/5d07507a85189203b7002a95/5ed0cf7411a8b0b111096fd5_tc-black-side-p-800.jpeg"
+    },
+    {
+      "id": 5,
+      "gender": "UNISEX",
+      "size": "SS/22",
+      "name": "Trescia",
+      "price": 230,
+      "photo": "https://global-uploads.webflow.com/5d07507a85189203b7002a95/5ed0ca93411f13ef43fe2ef2_ca-black-side-p-800.jpeg"
+    },
+    {
+      "id": 6,
+      "gender": "UNISEX",
+      "size": "SS/22",
+      "name": "carnera",
+      "price": 230,
+      "photo": "https://global-uploads.webflow.com/5d07507a85189203b7002a95/5ed0ca93411f13ef43fe2ef2_ca-black-side-p-800.jpeg"
+    }
+  ]
+}
